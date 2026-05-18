@@ -132,20 +132,6 @@ export const categories: Category[] = [
     title: "Contenido IA",
     services: [
       {
-        id: "ia-cafeteria",
-        title: "Cafetería",
-        description:
-          "Generación de imágenes fotorrealistas para cafeterías y negocios de café. Bebidas, pastelería y ambientes con estética visual que transmite identidad de marca y genera apetencia en redes sociales y menús digitales.",
-        aspectRatio: "4/5",
-        images: [
-          "/images/contenido-ia/cafeteria/1.jpg",
-          "/images/contenido-ia/cafeteria/2.jpg",
-          "/images/contenido-ia/cafeteria/3.jpg",
-          "/images/contenido-ia/cafeteria/4.jpg",
-          "/images/contenido-ia/cafeteria/5.jpg",
-        ],
-      },
-      {
         id: "ia-comida",
         title: "Comida",
         description:
@@ -156,21 +142,6 @@ export const categories: Category[] = [
           "/images/contenido-ia/comida/2.jpg",
           "/images/contenido-ia/comida/3.jpg",
           "/images/contenido-ia/comida/4.jpg",
-        ],
-      },
-      {
-        id: "ia-muebles",
-        title: "Muebles",
-        description:
-          "Renders fotorrealistas de mobiliario y decoración de interiores generados con IA. Visualizaciones con distintos ambientes, texturas y acabados para catálogos, e-commerce y presentaciones de proyectos de diseño.",
-        aspectRatio: "4/5",
-        images: [
-          "/images/contenido-ia/muebles/1.jpg",
-          "/images/contenido-ia/muebles/2.jpg",
-          "/images/contenido-ia/muebles/3.jpg",
-          "/images/contenido-ia/muebles/4.jpg",
-          "/images/contenido-ia/muebles/5.jpg",
-          "/images/contenido-ia/muebles/6.jpg",
         ],
       },
       {
@@ -188,7 +159,7 @@ export const categories: Category[] = [
       },
       {
         id: "ia-skincare",
-        title: "Skincare",
+        title: "Productos varios",
         description:
           "Fotografía de productos cosméticos y de cuidado personal generada con IA. Composiciones que destacan texturas, ingredientes y calidad, ideales para e-commerce, packaging y comunicación de marca.",
         aspectRatio: "4/5",
@@ -198,6 +169,35 @@ export const categories: Category[] = [
           "/images/contenido-ia/skincare/3.jpg",
           "/images/contenido-ia/skincare/4.jpg",
           "/images/contenido-ia/skincare/5.jpg",
+        ],
+      },
+      {
+        id: "ia-cafeteria",
+        title: "Cafetería",
+        description:
+          "Generación de imágenes fotorrealistas para cafeterías y negocios de café. Bebidas, pastelería y ambientes con estética visual que transmite identidad de marca y genera apetencia en redes sociales y menús digitales.",
+        aspectRatio: "4/5",
+        images: [
+          "/images/contenido-ia/cafeteria/1.jpg",
+          "/images/contenido-ia/cafeteria/2.jpg",
+          "/images/contenido-ia/cafeteria/3.jpg",
+          "/images/contenido-ia/cafeteria/4.jpg",
+          "/images/contenido-ia/cafeteria/5.jpg",
+        ],
+      },
+      {
+        id: "ia-muebles",
+        title: "Muebles",
+        description:
+          "Renders fotorrealistas de mobiliario y decoración de interiores generados con IA. Visualizaciones con distintos ambientes, texturas y acabados para catálogos, e-commerce y presentaciones de proyectos de diseño.",
+        aspectRatio: "4/5",
+        images: [
+          "/images/contenido-ia/muebles/1.jpg",
+          "/images/contenido-ia/muebles/2.jpg",
+          "/images/contenido-ia/muebles/3.jpg",
+          "/images/contenido-ia/muebles/4.jpg",
+          "/images/contenido-ia/muebles/5.jpg",
+          "/images/contenido-ia/muebles/6.jpg",
         ],
       },
     ],

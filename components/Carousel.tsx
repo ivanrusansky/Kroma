@@ -71,9 +71,9 @@ export default function Carousel({ images, alt, aspectRatio = "3/2" }: CarouselP
                 src={src}
                 alt={`${alt} - imagen ${i + 1}`}
                 fill
-                sizes="(max-width: 768px) 100vw, 1200px"
+                sizes="(max-width: 768px) calc(100vw - 48px), 720px"
                 className="object-cover transition-opacity duration-300"
-                loading={i === 0 ? "eager" : "lazy"}
+                loading="lazy"
                 onError={() => setImgErrors((prev) => ({ ...prev, [i]: true }))}
               />
             )}
