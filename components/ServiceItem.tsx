@@ -12,12 +12,12 @@ export default function ServiceItem({ service, carouselSizes }: ServiceItemProps
     <FadeInSection>
     <article className="w-full mb-12 md:mb-16 lg:mb-0 lg:h-full lg:flex lg:flex-col">
       {/* Title */}
-      <h3 className="text-[16px] md:text-[18px] font-semibold text-black leading-tight mb-2">
+      <h3 className="text-[16px] md:text-[18px] font-semibold text-black/75 leading-tight mb-2">
         {service.title}
       </h3>
 
       {/* Description */}
-      <p className="text-[13px] md:text-[14px] leading-[1.6] text-black font-normal mb-4">
+      <p className="text-[13px] md:text-[14px] leading-[1.6] text-black/60 font-normal mb-4">
         {service.description}
       </p>
 
