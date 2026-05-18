@@ -21,8 +21,8 @@ export default function ServiceItem({ service, carouselSizes }: ServiceItemProps
         {service.description}
       </p>
 
-      {/* Carousel — lg:mt-auto alinea todos los carruseles a la misma altura en el grid */}
-      <div className="lg:mt-auto">
+      {/* Carousel — negativo -mx-6 cancela el px-6 del contenedor en mobile → full-bleed */}
+      <div className="-mx-6 lg:mx-0 lg:mt-auto">
         <Carousel images={service.images} alt={service.title} aspectRatio={service.aspectRatio} sizes={carouselSizes} />
       </div>
     </article>
