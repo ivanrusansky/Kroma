@@ -7,10 +7,7 @@ interface ServiceCategoryProps {
 }
 
 export default function ServiceCategory({ category }: ServiceCategoryProps) {
-  const isGrid = category.services.length > 1;
-  const carouselSizes = isGrid
-    ? "(max-width: 1024px) calc(100vw - 48px), calc((100vw - 128px) / 3)"
-    : "(max-width: 1024px) calc(100vw - 48px), 1200px";
+  const carouselSizes = "(max-width: 1024px) calc(100vw - 48px), calc((100vw - 128px) / 3)";
 
   return (
     <section id={category.id} className="w-full bg-white py-10 md:py-16 scroll-mt-16">
@@ -25,8 +22,8 @@ export default function ServiceCategory({ category }: ServiceCategoryProps) {
           <div className="w-full border-t border-black/40 mb-10" />
         </FadeInSection>
 
-        {/* Services list */}
-        <div className={isGrid ? "lg:grid lg:grid-cols-3 lg:gap-x-8 lg:gap-y-12 xl:gap-x-10" : ""}>
+        {/* Services grid */}
+        <div className="lg:grid lg:grid-cols-3 lg:gap-x-8 lg:gap-y-12 xl:gap-x-10">
           {category.services.map((service) => (
             <ServiceItem key={service.id} service={service} carouselSizes={carouselSizes} />
           ))}
