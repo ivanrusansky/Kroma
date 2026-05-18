@@ -5,7 +5,7 @@ export default function Hero() {
     <section className="w-full flex items-center justify-center bg-white" style={{ minHeight: "clamp(60vh, 80vh, 100vh)" }}>
       <div className="flex items-center justify-center w-full px-6 py-16">
         <Image
-          src="/images/icons/logo-kroma.png"
+          src="/images/icons/kroma-logo.png"
           alt="Kroma"
           width={300}
           height={300}

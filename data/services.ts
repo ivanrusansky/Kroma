@@ -11,10 +11,12 @@ export const categories: Category[] = [
         description:
           "Fotografía especializada para exhibir productos con la máxima calidad visual. Destacamos texturas, detalles y acabados que generan confianza en el comprador y potencian las ventas en cualquier canal digital o impreso.",
         images: [
-          "/images/fotografia/fotografia-producto-01.jpg",
-          "/images/fotografia/fotografia-producto-02.jpg",
-          "/images/fotografia/fotografia-producto-03.jpg",
-          "/images/fotografia/fotografia-producto-04.jpg",
+          "/images/fotografia/producto/1.jpg",
+          "/images/fotografia/producto/2.jpg",
+          "/images/fotografia/producto/3.jpg",
+          "/images/fotografia/producto/4.jpg",
+          "/images/fotografia/producto/5.jpg",
+          "/images/fotografia/producto/6.jpg",
         ],
       },
       {
@@ -23,10 +25,12 @@ export const categories: Category[] = [
         description:
           "Imágenes corporativas que transmiten los valores, cultura y profesionalismo de su organización. Ideales para comunicaciones internas, sitios web, memorias anuales y materiales de prensa.",
         images: [
-          "/images/fotografia/fotografia-institucional-01.jpg",
-          "/images/fotografia/fotografia-institucional-02.jpg",
-          "/images/fotografia/fotografia-institucional-03.jpg",
-          "/images/fotografia/fotografia-institucional-04.jpg",
+          "/images/fotografia/institucional/1.jpg",
+          "/images/fotografia/institucional/2.jpg",
+          "/images/fotografia/institucional/3.jpg",
+          "/images/fotografia/institucional/4.jpg",
+          "/images/fotografia/institucional/5.jpg",
+          "/images/fotografia/institucional/6.jpg",
         ],
       },
       {
@@ -35,10 +39,12 @@ export const categories: Category[] = [
         description:
           "Registro fotográfico de espacios arquitectónicos, comerciales y residenciales. Mostramos ambientes con luz y composición cuidadas para destacar cada rincón y atraer a clientes potenciales.",
         images: [
-          "/images/fotografia/fotografia-interiores-01.jpg",
-          "/images/fotografia/fotografia-interiores-02.jpg",
-          "/images/fotografia/fotografia-interiores-03.jpg",
-          "/images/fotografia/fotografia-interiores-04.jpg",
+          "/images/fotografia/interior/1.jpg",
+          "/images/fotografia/interior/2.jpg",
+          "/images/fotografia/interior/3.jpg",
+          "/images/fotografia/interior/4.jpg",
+          "/images/fotografia/interior/5.jpg",
+          "/images/fotografia/interior/6.jpg",
         ],
       },
       {
@@ -47,10 +53,12 @@ export const categories: Category[] = [
         description:
           "Cobertura fotográfica completa de eventos corporativos, celebraciones y encuentros sociales. Capturamos los momentos más significativos con un enfoque documental y emocional.",
         images: [
-          "/images/fotografia/fotografia-eventos-01.jpg",
-          "/images/fotografia/fotografia-eventos-02.jpg",
-          "/images/fotografia/fotografia-eventos-03.jpg",
-          "/images/fotografia/fotografia-eventos-04.jpg",
+          "/images/fotografia/social/1.jpg",
+          "/images/fotografia/social/2.jpg",
+          "/images/fotografia/social/3.jpg",
+          "/images/fotografia/social/4.jpg",
+          "/images/fotografia/social/5.jpg",
+          "/images/fotografia/social/6.jpg",
         ],
       },
       {
@@ -59,22 +67,10 @@ export const categories: Category[] = [
         description:
           "Fotografía técnica y de registro para procesos, obras, patrimonio e informes. Ideal para organismos públicos, empresas constructoras y cualquier entidad que requiera evidencia visual precisa y ordenada.",
         images: [
-          "/images/fotografia/fotografia-documentacion-01.jpg",
-          "/images/fotografia/fotografia-documentacion-02.jpg",
-          "/images/fotografia/fotografia-documentacion-03.jpg",
-          "/images/fotografia/fotografia-documentacion-04.jpg",
-        ],
-      },
-      {
-        id: "fotografia-backstage",
-        title: "Backstage",
-        description:
-          "Registro del detrás de escena en producciones, rodajes y eventos. Contenido auténtico que humaniza su marca, genera cercanía con la audiencia y enriquece la comunicación en redes sociales.",
-        images: [
-          "/images/fotografia/fotografia-backstage-01.jpg",
-          "/images/fotografia/fotografia-backstage-02.jpg",
-          "/images/fotografia/fotografia-backstage-03.jpg",
-          "/images/fotografia/fotografia-backstage-04.jpg",
+          "/images/fotografia/documental/1.jpg",
+          "/images/fotografia/documental/2.jpg",
+          "/images/fotografia/documental/3.jpg",
+          "/images/fotografia/documental/4.jpg",
         ],
       },
       {
@@ -89,6 +85,20 @@ export const categories: Category[] = [
           "/images/fotografia/gastronomica/4.jpg",
           "/images/fotografia/gastronomica/5.jpg",
           "/images/fotografia/gastronomica/6.jpg",
+        ],
+      },
+      {
+        id: "fotografia-clases",
+        title: "Clases",
+        description:
+          "Fotografía escolar para instituciones educativas, academias y centros de formación. Retrato individual y grupal de alumnos y docentes, registro de actividades y egresados. Capturamos cada etapa con profesionalismo y calidez.",
+        images: [
+          "/images/fotografia/clases/1.jpg",
+          "/images/fotografia/clases/2.jpg",
+          "/images/fotografia/clases/3.jpg",
+          "/images/fotografia/clases/4.jpg",
+          "/images/fotografia/clases/5.jpg",
+          "/images/fotografia/clases/6.jpg",
         ],
       },
     ],

@@ -7,7 +7,7 @@ const INSTAGRAM_URL = "https://instagram.com/kromavisual"; // reemplazar con usu
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-[#1A1A1A] min-h-50 flex flex-col items-center justify-center py-10 px-6">
+    <footer className="w-full bg-[#F0F0F0] min-h-50 flex flex-col items-center justify-center py-10 px-6">
       {/* Icons */}
       <div className="flex items-center gap-10">
         {/* Instagram */}
@@ -16,7 +16,7 @@ export default function Footer() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Instagram de Kroma"
-          className="text-white opacity-100 hover:opacity-70 transition-opacity duration-300 flex items-center justify-center min-w-11 min-h-11"
+          className="text-black opacity-100 hover:opacity-50 transition-opacity duration-300 flex items-center justify-center min-w-11 min-h-11"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -41,7 +41,7 @@ export default function Footer() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="WhatsApp de Kroma"
-          className="text-white opacity-100 hover:opacity-70 transition-opacity duration-300 flex items-center justify-center min-w-11 min-h-11"
+          className="text-black opacity-100 hover:opacity-50 transition-opacity duration-300 flex items-center justify-center min-w-11 min-h-11"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -60,7 +60,7 @@ export default function Footer() {
       </div>
 
       {/* Copyright */}
-      <p className="mt-6 text-[14px] text-white/60 text-center">
+      <p className="mt-6 text-[14px] text-black/40 text-center">
         Kroma © 2026
       </p>
     </footer>

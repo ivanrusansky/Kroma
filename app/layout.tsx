@@ -30,6 +30,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "es_AR",
     siteName: "Kroma",
+    images: [{ url: "/images/icons/kroma-logo.png", width: 800, height: 800 }],
   },
   twitter: {
     card: "summary_large_image",
@@ -38,8 +39,8 @@ export const metadata: Metadata = {
       "Fotografía profesional, sitios web y contenido con IA para marcas, negocios y empresas.",
   },
   icons: {
-    icon: "/images/icons/logo-kroma.png",
-    apple: "/images/icons/logo-kroma.png",
+    icon: "/images/icons/kroma-logo.png",
+    apple: "/images/icons/kroma-logo.png",
   },
   robots: {
     index: true,
