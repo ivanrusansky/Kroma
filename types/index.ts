@@ -3,6 +3,7 @@ export interface Service {
   title: string;
   description: string;
   images: string[];
+  aspectRatio?: string;
 }
 
 export interface Category {

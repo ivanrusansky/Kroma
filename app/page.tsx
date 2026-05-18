@@ -1,5 +1,4 @@
 import Navbar from "@/components/Navbar";
-import Hero from "@/components/Hero";
 import Intro from "@/components/Intro";
 import ServiceCategory from "@/components/ServiceCategory";
 import Footer from "@/components/Footer";
@@ -11,7 +10,6 @@ export default function Home() {
     <>
       <Navbar />
       <main className="w-full bg-white pt-14">
-        <Hero />
         <Intro />
         {categories.map((category) => (
           <ServiceCategory key={category.id} category={category} />

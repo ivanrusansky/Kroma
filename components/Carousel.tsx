@@ -7,9 +7,10 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 interface CarouselProps {
   images: string[];
   alt: string;
+  aspectRatio?: string;
 }
 
-export default function Carousel({ images, alt }: CarouselProps) {
+export default function Carousel({ images, alt, aspectRatio = "3/2" }: CarouselProps) {
   const [current, setCurrent] = useState(0);
   const [imgErrors, setImgErrors] = useState<Record<number, boolean>>({});
   const containerRef = useRef<HTMLDivElement>(null);
@@ -41,7 +42,8 @@ export default function Carousel({ images, alt }: CarouselProps) {
       role="region"
       aria-label={`Carrusel de imágenes: ${alt}`}
       aria-roledescription="carrusel"
-      className="w-full max-w-300 mx-auto relative rounded-sm overflow-hidden bg-[#EBEBEB] outline-none focus-visible:ring-2 focus-visible:ring-black aspect-[3/2]"
+      className="w-full max-w-300 mx-auto relative overflow-hidden bg-[#EBEBEB] outline-none focus-visible:ring-2 focus-visible:ring-black"
+      style={{ aspectRatio }}
     >
       {/* Images track */}
       <div

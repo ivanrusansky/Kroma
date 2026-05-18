@@ -21,7 +21,7 @@ export default function ServiceItem({ service }: ServiceItemProps) {
       </p>
 
       {/* Carousel */}
-      <Carousel images={service.images} alt={service.title} />
+      <Carousel images={service.images} alt={service.title} aspectRatio={service.aspectRatio} />
     </article>
     </FadeInSection>
   );
