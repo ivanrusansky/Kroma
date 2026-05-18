@@ -41,8 +41,8 @@ export default function Carousel({ images, alt }: CarouselProps) {
       role="region"
       aria-label={`Carrusel de im�genes: ${alt}`}
       aria-roledescription="carrusel"
-      className="w-full max-w-[1200px] relative overflow-hidden bg-[#F5F5F5] outline-none focus-visible:ring-2 focus-visible:ring-black"
-      style={{ height: "clamp(280px, 45vw, 600px)" }}
+      className="w-full max-w-300 mx-auto relative overflow-hidden bg-[#F5F5F5] outline-none focus-visible:ring-2 focus-visible:ring-black"
+      style={{ height: "clamp(400px, 50vw, 600px)" }}
     >
       {/* Images track */}
       <div
@@ -56,7 +56,7 @@ export default function Carousel({ images, alt }: CarouselProps) {
             aria-roledescription="diapositiva"
             aria-label={`${i + 1} de ${images.length}`}
             aria-hidden={i !== current}
-            className="relative h-full flex-shrink-0 w-full bg-[#EBEBEB]"
+            className="relative h-full shrink-0 w-full bg-[#EBEBEB]"
           >
             {imgErrors[i] ? (
               /* Placeholder when image is missing */
@@ -111,7 +111,7 @@ export default function Carousel({ images, alt }: CarouselProps) {
             aria-selected={i === current}
             aria-label={`Imagen ${i + 1}`}
             onClick={() => setCurrent(i)}
-            className="w-[10px] h-[10px] rounded-full border border-black transition-colors duration-300 p-0 min-w-0 min-h-0"
+            className="w-2.5 h-2.5 rounded-full border border-black transition-colors duration-300 p-0 min-w-0 min-h-0"
             style={{ background: i === current ? "#000" : "transparent" }}
           />
         ))}
