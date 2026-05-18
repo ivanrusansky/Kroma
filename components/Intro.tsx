@@ -5,12 +5,12 @@ export default function Intro() {
     <section className="w-full bg-white py-20 md:py-30 px-6">
       <FadeInSection>
       <div className="max-w-200 mx-auto">
-        <p className="text-[18px] md:text-[20px] leading-[1.8] text-black font-normal mb-8 text-center">
+        <p className="text-[18px] md:text-[20px] leading-[1.8] text-black font-normal mb-8 text-justify">
           En Kroma tenemos el objetivo de potenciar la imagen y presentación de
           toda propuesta, abarcando la creación de contenido visual para todo
           tipo de marcas, negocios, servicios y empresas.
         </p>
-        <p className="text-[18px] md:text-[20px] leading-[1.8] text-black font-normal text-center">
+        <p className="text-[18px] md:text-[20px] leading-[1.8] text-black font-normal text-justify">
           Ofrecemos una variedad de servicios que se adecúan a los sectores
           comerciales, sociales, institucionales y educativos:
         </p>

@@ -42,7 +42,7 @@ export default function Carousel({ images, alt }: CarouselProps) {
       aria-label={`Carrusel de im�genes: ${alt}`}
       aria-roledescription="carrusel"
       className="w-full max-w-300 mx-auto relative overflow-hidden bg-[#F5F5F5] outline-none focus-visible:ring-2 focus-visible:ring-black"
-      style={{ height: "clamp(400px, 50vw, 600px)" }}
+      style={{ height: "clamp(200px, 28vw, 300px)" }}
     >
       {/* Images track */}
       <div
