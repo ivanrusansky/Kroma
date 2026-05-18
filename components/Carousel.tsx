@@ -8,9 +8,10 @@ interface CarouselProps {
   images: string[];
   alt: string;
   aspectRatio?: string;
+  sizes?: string;
 }
 
-export default function Carousel({ images, alt, aspectRatio = "3/2" }: CarouselProps) {
+export default function Carousel({ images, alt, aspectRatio = "3/2", sizes = "(max-width: 768px) calc(100vw - 48px), 720px" }: CarouselProps) {
   const [current, setCurrent] = useState(0);
   const [imgErrors, setImgErrors] = useState<Record<number, boolean>>({});
   const containerRef = useRef<HTMLDivElement>(null);
@@ -71,7 +72,7 @@ export default function Carousel({ images, alt, aspectRatio = "3/2" }: CarouselP
                 src={src}
                 alt={`${alt} - imagen ${i + 1}`}
                 fill
-                sizes="(max-width: 768px) calc(100vw - 48px), 720px"
+                sizes={sizes}
                 className="object-cover transition-opacity duration-300"
                 loading="lazy"
                 onError={() => setImgErrors((prev) => ({ ...prev, [i]: true }))}
