@@ -41,7 +41,7 @@ export default function Carousel({ images, alt }: CarouselProps) {
       role="region"
       aria-label={`Carrusel de imágenes: ${alt}`}
       aria-roledescription="carrusel"
-      className="w-full max-w-300 mx-auto relative overflow-hidden bg-[#F5F5F5] outline-none focus-visible:ring-2 focus-visible:ring-black aspect-[3/2]"
+      className="w-full max-w-300 mx-auto relative rounded-lg overflow-hidden bg-[#EBEBEB] outline-none focus-visible:ring-2 focus-visible:ring-black aspect-[3/2]"
     >
       {/* Images track */}
       <div
@@ -83,23 +83,23 @@ export default function Carousel({ images, alt }: CarouselProps) {
       <button
         onClick={prev}
         aria-label="Imagen anterior"
-        className="absolute left-4 top-1/2 -translate-y-1/2 w-11 h-11 flex items-center justify-center bg-white/80 hover:bg-white opacity-70 hover:opacity-100 transition-all duration-300"
+        className="absolute left-3 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full flex items-center justify-center bg-black/30 hover:bg-black/55 backdrop-blur-sm transition-all duration-200"
       >
-        <ChevronLeft size={20} strokeWidth={2} className="text-black" />
+        <ChevronLeft size={17} strokeWidth={2} className="text-white" />
       </button>
 
       {/* Right arrow */}
       <button
         onClick={next}
         aria-label="Imagen siguiente"
-        className="absolute right-4 top-1/2 -translate-y-1/2 w-11 h-11 flex items-center justify-center bg-white/80 hover:bg-white opacity-70 hover:opacity-100 transition-all duration-300"
+        className="absolute right-3 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full flex items-center justify-center bg-black/30 hover:bg-black/55 backdrop-blur-sm transition-all duration-200"
       >
-        <ChevronRight size={20} strokeWidth={2} className="text-black" />
+        <ChevronRight size={17} strokeWidth={2} className="text-white" />
       </button>
 
       {/* Dots */}
       <div
-        className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-3"
+        className="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-2"
         role="tablist"
         aria-label="Selector de imagen"
       >
@@ -110,8 +110,12 @@ export default function Carousel({ images, alt }: CarouselProps) {
             aria-selected={i === current}
             aria-label={`Imagen ${i + 1}`}
             onClick={() => setCurrent(i)}
-            className="w-2.5 h-2.5 rounded-full border border-black transition-colors duration-300 p-0 min-w-0 min-h-0"
-            style={{ background: i === current ? "#000" : "transparent" }}
+            className="rounded-full transition-all duration-300 p-0 min-w-0 min-h-0"
+            style={{
+              width: i === current ? "20px" : "6px",
+              height: "6px",
+              background: i === current ? "rgba(255,255,255,1)" : "rgba(255,255,255,0.45)",
+            }}
           />
         ))}
       </div>
