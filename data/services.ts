@@ -77,6 +77,20 @@ export const categories: Category[] = [
           "/images/fotografia/fotografia-backstage-04.jpg",
         ],
       },
+      {
+        id: "fotografia-gastronomica",
+        title: "Gastronomía",
+        description:
+          "Fotografía especializada en gastronomía, con atención al detalle en texturas, colores y presentación de platos y bebidas. Ideal para restaurantes, cafeterías, chefs y marcas alimenticias que buscan comunicar sabor y calidad a través de imágenes que despiertan el apetito.",
+        images: [
+          "/images/fotografia/gastronomica/1.jpg",
+          "/images/fotografia/gastronomica/2.jpg",
+          "/images/fotografia/gastronomica/3.jpg",
+          "/images/fotografia/gastronomica/4.jpg",
+          "/images/fotografia/gastronomica/5.jpg",
+          "/images/fotografia/gastronomica/6.jpg",
+        ],
+      },
     ],
   },
   {
