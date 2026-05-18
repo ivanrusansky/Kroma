@@ -9,6 +9,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://kroma.vercel.app"),
   title: "Kroma - Servicios de Contenido Visual",
   description:
     "Kroma potencia la imagen y presentación de toda propuesta. Fotografía profesional, sitios web y contenido con IA para marcas, negocios y empresas.",

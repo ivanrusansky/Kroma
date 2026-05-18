@@ -9,14 +9,14 @@ interface ServiceItemProps {
 export default function ServiceItem({ service }: ServiceItemProps) {
   return (
     <FadeInSection>
-    <article className="w-full mb-16 sm:mb-20 md:mb-[100px]">
+    <article className="w-full mb-12 md:mb-16">
       {/* Title */}
-      <h3 className="text-[28px] md:text-[36px] font-semibold text-black leading-tight mb-5">
+      <h3 className="text-[20px] md:text-[26px] font-semibold text-black leading-tight mb-3">
         {service.title}
       </h3>
 
       {/* Description */}
-      <p className="text-[16px] md:text-[18px] leading-[1.6] text-black font-normal max-w-[700px] mb-10">
+      <p className="text-[14px] md:text-[15px] leading-[1.6] text-black font-normal mb-8">
         {service.description}
       </p>
 
