@@ -41,7 +41,7 @@ export default function Carousel({ images, alt }: CarouselProps) {
       role="region"
       aria-label={`Carrusel de imágenes: ${alt}`}
       aria-roledescription="carrusel"
-      className="w-full max-w-300 mx-auto relative rounded-lg overflow-hidden bg-[#EBEBEB] outline-none focus-visible:ring-2 focus-visible:ring-black aspect-[3/2]"
+      className="w-full max-w-300 mx-auto relative rounded-sm overflow-hidden bg-[#EBEBEB] outline-none focus-visible:ring-2 focus-visible:ring-black aspect-[3/2]"
     >
       {/* Images track */}
       <div

@@ -8,7 +8,7 @@ interface ServiceCategoryProps {
 
 export default function ServiceCategory({ category }: ServiceCategoryProps) {
   return (
-    <section className="w-full bg-white py-10 md:py-16">
+    <section id={category.id} className="w-full bg-white py-10 md:py-16 scroll-mt-16">
       <div className="max-w-180 mx-auto px-6">
         {/* Category title */}
         <FadeInSection>

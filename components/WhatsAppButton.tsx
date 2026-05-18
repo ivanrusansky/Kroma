@@ -1,6 +1,6 @@
 "use client";
 
-const WA_NUMBER = "5491100000000"; // reemplazar con número real
+const WA_NUMBER = "5491138948317";
 const WA_MESSAGE = encodeURIComponent(
   "Hola, me interesa consultar por sus servicios"
 );

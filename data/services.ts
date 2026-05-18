@@ -108,75 +108,19 @@ export const categories: Category[] = [
     title: "Sitios Web",
     services: [
       {
-        id: "sitio-informativa",
-        title: "Informativa",
+        id: "sitio-web-portafolio",
+        title: "Diseño y Desarrollo",
         description:
-          "Sitio web claro y estructurado para presentar información relevante de manera accesible. Ideal para organismos, proyectos o iniciativas que necesitan comunicar contenidos de forma ordenada y profesional.",
+          "Diseñamos y desarrollamos sitios web a medida: páginas informativas, institucionales, e-commerce, landing pages, portfolios y plataformas artísticas. Cada proyecto se construye con foco en la identidad de su marca, la experiencia del usuario y la optimización para buscadores.",
         images: [
-          "/images/sitios-web/sitio-informativa-01.jpg",
-          "/images/sitios-web/sitio-informativa-02.jpg",
-          "/images/sitios-web/sitio-informativa-03.jpg",
-          "/images/sitios-web/sitio-informativa-04.jpg",
-        ],
-      },
-      {
-        id: "sitio-institucional",
-        title: "Institucional",
-        description:
-          "Plataforma digital que refleja la identidad, misión y trayectoria de su organización. Genera credibilidad, facilita el contacto con clientes o aliados y consolida la presencia en línea.",
-        images: [
-          "/images/sitios-web/sitio-institucional-01.jpg",
-          "/images/sitios-web/sitio-institucional-02.jpg",
-          "/images/sitios-web/sitio-institucional-03.jpg",
-          "/images/sitios-web/sitio-institucional-04.jpg",
-        ],
-      },
-      {
-        id: "sitio-ecommerce",
-        title: "E-commerce",
-        description:
-          "Tienda en línea completa con catálogo de productos, carrito de compras y pasarela de pago. Diseñada para maximizar conversiones y brindar una experiencia de compra fluida desde cualquier dispositivo.",
-        images: [
-          "/images/sitios-web/sitio-ecommerce-01.jpg",
-          "/images/sitios-web/sitio-ecommerce-02.jpg",
-          "/images/sitios-web/sitio-ecommerce-03.jpg",
-          "/images/sitios-web/sitio-ecommerce-04.jpg",
-        ],
-      },
-      {
-        id: "sitio-landing-page",
-        title: "Landing Page",
-        description:
-          "Página de aterrizaje enfocada en un objetivo concreto: captar leads, presentar un servicio o impulsar una campaña. Diseño persuasivo, carga rápida y llamada a la acción clara.",
-        images: [
-          "/images/sitios-web/sitio-landing-01.jpg",
-          "/images/sitios-web/sitio-landing-02.jpg",
-          "/images/sitios-web/sitio-landing-03.jpg",
-          "/images/sitios-web/sitio-landing-04.jpg",
-        ],
-      },
-      {
-        id: "sitio-artisticas",
-        title: "Artísticas",
-        description:
-          "Sitios web con diseño expresivo y personalizado para artistas, músicos, fotógrafos y creadores. La estética se adapta a la identidad de cada proyecto manteniendo una navegación intuitiva.",
-        images: [
-          "/images/sitios-web/sitio-artisticas-01.jpg",
-          "/images/sitios-web/sitio-artisticas-02.jpg",
-          "/images/sitios-web/sitio-artisticas-03.jpg",
-          "/images/sitios-web/sitio-artisticas-04.jpg",
-        ],
-      },
-      {
-        id: "sitio-portfolio",
-        title: "Portfolio",
-        description:
-          "Presentación digital del trabajo y trayectoria profesional. Estructurado para destacar proyectos, habilidades y logros de forma visual, directa y memorable ante potenciales clientes o empleadores.",
-        images: [
-          "/images/sitios-web/sitio-portfolio-01.jpg",
-          "/images/sitios-web/sitio-portfolio-02.jpg",
-          "/images/sitios-web/sitio-portfolio-03.jpg",
-          "/images/sitios-web/sitio-portfolio-04.jpg",
+          "/images/sitios-web/1.jpg",
+          "/images/sitios-web/2.jpg",
+          "/images/sitios-web/3.jpg",
+          "/images/sitios-web/4.jpg",
+          "/images/sitios-web/5.jpg",
+          "/images/sitios-web/6.jpg",
+          "/images/sitios-web/7.jpg",
+          "/images/sitios-web/8.jpg",
         ],
       },
     ],

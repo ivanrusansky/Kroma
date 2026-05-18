@@ -1,9 +1,9 @@
-const WA_NUMBER = "5491100000000"; // reemplazar con número real
+const WA_NUMBER = "5491138948317";
 const WA_MESSAGE = encodeURIComponent(
   "Hola, me interesa consultar por sus servicios"
 );
 const WA_URL = `https://wa.me/${WA_NUMBER}?text=${WA_MESSAGE}`;
-const INSTAGRAM_URL = "https://instagram.com/kromavisual"; // reemplazar con usuario real
+const INSTAGRAM_URL = "https://www.instagram.com/kroma.visuales/";
 
 export default function Footer() {
   return (
