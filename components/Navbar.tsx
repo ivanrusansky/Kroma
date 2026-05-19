@@ -9,7 +9,7 @@ const NAV_LINKS = [
 export default function Navbar() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-black/8 h-14">
-      <div className="max-w-180 mx-auto px-6 h-full flex items-center justify-between">
+      <div className="max-w-180 mx-auto px-6 h-full flex items-center justify-between lg:max-w-190 lg:px-0 xl:max-w-225">
         {/* Logo */}
         <a href="#" aria-label="Inicio" className="flex items-center">
           <Image

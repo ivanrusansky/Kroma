@@ -7,13 +7,13 @@ interface ServiceCategoryProps {
 }
 
 export default function ServiceCategory({ category }: ServiceCategoryProps) {
-  const carouselSizes = "(max-width: 1024px) calc(100vw - 48px), 250px";
+  const carouselSizes = "(max-width: 1024px) 100vw, 250px";
 
   return (
     <section id={category.id} className="w-full bg-white py-8 md:py-12 scroll-mt-16">
       <div className="max-w-180 mx-auto px-6 lg:max-w-none lg:px-16 xl:px-20">
         {/* Wrapper centrado que alinea título + grid */}
-        <div className="lg:max-w-[760px] xl:max-w-[900px] lg:mx-auto">
+        <div className="lg:max-w-190 xl:max-w-225 lg:mx-auto">
           {/* Category title */}
           <FadeInSection>
             <h2 className="text-[28px] md:text-[38px] lg:text-[30px] font-bold text-black/75 leading-none mb-3">

@@ -4,7 +4,7 @@ export default function Intro() {
   return (
     <section className="w-full bg-white py-6 md:py-8 px-6 lg:px-16 xl:px-20">
       <FadeInSection>
-      <div className="max-w-130 mx-auto lg:max-w-[760px] xl:max-w-[900px]">
+      <div className="max-w-130 mx-auto lg:max-w-190 xl:max-w-225">
         <p className="text-[13px] md:text-[14px] lg:text-[15px] leading-[1.6] text-black/60 font-normal mb-3 text-justify lg:text-left">
           En Kroma tenemos el objetivo de potenciar la imagen y presentación de
           toda propuesta, abarcando la creación de contenido visual para todo
