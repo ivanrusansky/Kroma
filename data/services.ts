@@ -43,7 +43,7 @@ export const categories: Category[] = [
           "/images/fotografia/interior/2.jpg",
           "/images/fotografia/interior/3.jpg",
           "/images/fotografia/interior/4.jpg",
-          "/images/fotografia/interior/5.jpg",
+          "/images/fotografia/interior/5.webp",
           "/images/fotografia/interior/6.jpg",
         ],
       },
