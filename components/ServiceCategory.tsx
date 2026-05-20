@@ -6,8 +6,30 @@ interface ServiceCategoryProps {
   category: Category;
 }
 
+const DESKTOP_COLS = 3;
+
 export default function ServiceCategory({ category }: ServiceCategoryProps) {
   const carouselSizes = "(max-width: 1024px) 100vw, 250px";
+
+  const renderServices = () => {
+    const items: React.ReactNode[] = [];
+    category.services.forEach((service, i) => {
+      items.push(
+        <ServiceItem key={service.id} service={service} carouselSizes={carouselSizes} />
+      );
+      // After every complete desktop row, if more services follow, add a separator
+      const isEndOfRow = (i + 1) % DESKTOP_COLS === 0;
+      const hasNextItem = i + 1 < category.services.length;
+      if (isEndOfRow && hasNextItem) {
+        items.push(
+          <div key={`row-sep-${i}`} className="hidden lg:block lg:col-span-3">
+            <div className="w-full border-t border-black/15" />
+          </div>
+        );
+      }
+    });
+    return items;
+  };
 
   return (
     <section id={category.id} className="w-full bg-white py-8 md:py-12 scroll-mt-16">
@@ -26,9 +48,7 @@ export default function ServiceCategory({ category }: ServiceCategoryProps) {
 
           {/* Services grid */}
           <div className="lg:grid lg:grid-cols-3 lg:gap-x-10 lg:gap-y-14 xl:gap-x-12">
-            {category.services.map((service) => (
-              <ServiceItem key={service.id} service={service} carouselSizes={carouselSizes} />
-            ))}
+            {renderServices()}
           </div>
         </div>
       </div>
